@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Top Secret File</title>
+    <style>
+        body {
+            background: #181c25;
+            color: #f8f8f2;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            color: #ff5555;
+            margin-bottom: 24px;
+            letter-spacing: 2px;
+        }
+
+        form {
+            background: #232946;
+            padding: 32px 24px;
+            border-radius: 12px;
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            min-width: 300px;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            padding: 8px 10px;
+            border: 1px solid #44475a;
+            border-radius: 6px;
+            background: #282a36;
+            color: #f8f8f2;
+            margin-bottom: 10px;
+            font-size: 1em;
+        }
+
+        input[type="submit"] {
+            background: #ff5555;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            padding: 10px 0;
+            font-size: 1em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        input[type="submit"]:hover {
+            background: #ff2222;
+        }
+
+        p {
+            margin-top: 24px;
+            color: #f1fa8c;
+            font-size: 1.1em;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Top Secret Access Portal</h1>
+    <form>
+        <label>Username:</label>
+        <input type="text" /><br />
+        <label>Password:</label>
+        <input type="password" /><br />
+        <input type="submit" value="Login" />
+    </form>
+    <p>Access Restricted: Authorized personnel only.</p>
+
+    <!-- Hint: Look deeper. Try /hiddenpage.html -->
+</body>
+
+</html>
